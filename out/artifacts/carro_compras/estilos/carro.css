@@ -1,0 +1,62 @@
+/* Estilos generales para el carro de compras */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Contenedor de productos */
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Estilo para cada producto */
+.producto {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.producto-id, .producto-nombre, .producto-precio, .producto-cantidad, .producto-total {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Resaltar los totales */
+.producto-total-final {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Estilo para los botones */
+.btn-seguir-comprando, .btn-ir-al-inicio {
+    display: inline-block;
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn-seguir-comprando:hover, .btn-ir-al-inicio:hover {
+    background-color: #005f73;
+}
